@@ -1,0 +1,56 @@
+.header{
+    background-image: url(drapeau\ senegal\ signification.jpg);
+    background-size: cover;
+}
+h1{
+    text-align: center;
+
+}
+p{
+    font-size: 18px;
+    padding-top: 20px;
+}
+
+.welcome-senegal .image{
+    width: 24%;
+    height: 350px;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+}
+.welcome-senegal .image img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.welcome-senegal{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+}
+  
+
+
+.welcome-senegal2 .image2{
+    width: 24%;
+    height: 350px;
+    border-radius: 1rem;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+    background-color: white;
+}
+.welcome-senegal2 .image2 img{
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 1rem;
+}
+.welcome-senegal2{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 50px;
+}

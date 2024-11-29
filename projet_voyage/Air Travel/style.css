@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: century;
+}
+header{
+    background-image: url(avion.jpg);
+    height: 10vh;
+    opacity:0,5 ;
+    background-size: cover;
+}
+.logo a{
+    color: white;
+    padding: 0px 20px;
+    border: 1px solid transparent;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 900;
+    text-shadow: rgba(0, 0, 0, 0,7);
+}
+.logo span{
+    color: red;
+    font-weight: bold;
+    font-size: 2rem;
+}
+ul{
+    list-style: none;
+    float: right;
+    display: flex;
+    margin-top: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    margin: 10px;
+    font-weight: 500;
+    transition: 1s ease;
+}
+ul li a:hover{
+    background: white;
+    color: black;
+}
+ul li.active a{
+    background: white;
+    color: black;
+}
+.principale{
+    max-width: 114rem;
+    margin: 0 auto;
+}
+
+.titre{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url(avion.jpg) ;
+  background-position: center;
+  height:100vh;
+}
+.titre h1 {
+    font-size: 50px;
+    color: white;
+    position: relative;
+    text-align: center;
+padding-top: 160px;
+
+}
+
+.bouton{
+    position: absolute;
+    top: 60%;
+    font-size: 20px;
+    left: 50%;
+    transform: translate(-50%, 50%);
+
+}
+.bouton a{
+color: white;
+text-decoration: none;
+border: 1px solid white;
+padding: 10x 20px;
+}
+.btn{
+    transition: 0,6s ease;
+
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
+.find_trip{
+    background-color: black;
+    padding: 20px;
+    width: 100%;
+    position: absolute;
+    border: -50%;
+}
+.find_trip form{
+display: flex;
+justify-content: space-between;
+align-items: flex-end;
+width: 100%;
+size: 5px;
+}
+.find_trip form label{
+    color: white;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+.find_trip form input{
+    padding: 5px 20px;
+    background-color: transparent;
+    border: 1px solid aqua;
+    outline: 0;
+    width: 100%;
+    font-size: 13px;
+    color: white;
+}
+.find_trip form input[type="submit"]{
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    color: aqua;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.find_trip form input[type="submit"]:hover{
+    box-shadow: 0 0 10px aqua;
+}
+
+
+.pied-page{
+    background-color: white;
+}
+ 
